@@ -1,0 +1,6 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/elements-less-than-k/1">Elements Less Than K</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given an array <strong>arr[]</strong> and an integer<strong> k</strong>, return all elements of arr that are less than k. The elements in the returned vector should appear in the same order as in the original array. </span><span style="font-size: 18px;">Note: If no element is less than k, return an empty vector.</span></p><p><span style="font-size: 18px;"><strong>Examples :</strong></span></p><pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [5, 3, 6, 1, 3], k = 4
+<strong>Output: </strong>3 1 3
+<strong>Explanation: </strong></span><span style="font-size: 18px;">The elements less than 4 are 3, 1, 3, and their original order is preserved.</span>
+</pre><pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [5, 6, 7], k = 5
+<strong>Output: </strong>[]
+<strong>Explanation: </strong>There is no element less than 5.</span></pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;
