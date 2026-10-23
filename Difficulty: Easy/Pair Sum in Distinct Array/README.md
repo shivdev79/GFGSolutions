@@ -1,0 +1,6 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/hashing-for-pair-1--110939/1">Pair Sum in Distinct Array</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 14pt;">Given an array of distinct integers <strong>arr[]</strong> and an integer <strong>sum</strong>, return true if there exists a pair of elements in arr whose sum is equal to sum. Otherwise, return false.</span></p><p><span style="font-size: 18px;"><strong>Examples :</strong></span></p><pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], sum = 14
+<strong>Output: </strong>true<strong>
+Explanation: </strong></span><span style="font-size: 18px;">There is a pair {4, 10} with sum 14.</span>
+</pre><pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [2, 5], sum = 10
+<strong>Output: </strong>false<strong>
+Explanation: </strong>There is no pair with sum 10.</span></pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Hash</code>&nbsp;
