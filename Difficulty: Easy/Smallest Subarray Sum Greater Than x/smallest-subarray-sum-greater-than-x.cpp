@@ -9,13 +9,12 @@ class Solution {
             sum = sum + arr[j];
             while(sum > x){
                 mini = min(mini , j - i + 1);
-                sum = sum  - arr[i];
+                sum = sum - arr[i];
                 i = i + 1;
             }
             j = j + 1;
         }
         if(mini == INT_MAX) return 0;
-
         return mini;
     }
 };
