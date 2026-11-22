@@ -13,14 +13,14 @@ class Node {
 class Solution {
   public:
     bool detectLoop(Node* head) {
-        map <Node* , bool > visited;
-        Node* temp = head;
-        while( temp != NULL){
-            if(visited[temp] == true){
+        Node* fast = head;
+        Node* slow = head;
+        while(fast != NULL && fast -> next != NULL){
+            slow = slow -> next ;
+            fast = fast -> next -> next;
+            if(slow == fast){
                 return true;
             }
-            visited[temp] = true;
-            temp = temp -> next;
         }
         return false;
     }
