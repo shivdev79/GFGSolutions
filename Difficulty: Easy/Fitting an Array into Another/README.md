@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/fitting-the-array1514/1">Fitting an Array into Another</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given two arrays <strong>a[ ]</strong> and <strong>b[ ]</strong> of the same size. The array<strong> a[ ] </strong>will be said to fit in array <strong>b[ ] </strong>if by arranging the elements of both arrays, there exists a solution such that i'th element of <strong>a[ ]</strong> is less than or equal to i'th element of <strong>b[ ]</strong>, for each i, 0 &lt;= i &lt; n. Find if the given array <strong>a[ ]</strong> can fit in array <strong>b[ ] </strong>or not.</span></p>
+<p><strong><span style="font-size: 18px;">Examples:</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> a[] = [7, 5, 3, 2],</span> <span style="font-size: 18px;">b[] = [5, 4, 8, 7]</span>
+<span style="font-size: 18px;"><strong>Output:</strong> true</span>
+<strong><span style="font-size: 18px;">Explanation: </span></strong><span style="font-size: 18px;">Transform a[] = {2, 3, 5, 7} and</span> <span style="font-size: 18px;">b[] = {4, 5, 7, 8}.
+Now, 2&lt;=4, 3&lt;=5, 5&lt;=7 and 7&lt;=8. So a[] array can</span> <span style="font-size: 18px;">fit in b[] array.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> a[] = [1, 2, 4], b[] = [1, 2, 3]</span>
+<span style="font-size: 18px;"><strong>Output:</strong> false
+<strong>Explanation:</strong> As 1&lt;=1, 2&lt;=2 but 4&gt;3 so, a[] array can</span> <span style="font-size: 18px;">fit in b[] array. </span>
+</pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Sorting</code>&nbsp;<code>logical-thinking</code>&nbsp;
